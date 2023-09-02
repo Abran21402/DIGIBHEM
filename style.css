@@ -1,0 +1,13 @@
+body{
+    background-color: rgb(119, 227, 227);
+}
+
+#title{
+    font-family:cursive;
+    font-weight: bold;    
+}
+li{
+    font-size: large;
+    font-family:'sans-serif';
+    font-weight: bold;
+}
