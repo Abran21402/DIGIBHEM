@@ -32,11 +32,11 @@ function calculate() {
 
     var Balance=TotalCost-AdvanceAmount;
 
-    document.getElementById('TotalRoomCost').innerHTML="Total Room Cost = "+TotalRoomCost;
-    document.getElementById('TotalAmenitiesCost').innerHTML="Total Amenities Cost = "+TotalAmenitiesCost;
-    document.getElementById('ExtraPersonCost').innerHTML="Extra Person Cost ="+ExtraPersonCost;
-    document.getElementById('TotalCost').innerHTML="Total Cost = "+TotalCost;
-    document.getElementById('Balance').innerHTML="Balance Amount = "+Balance;
+    document.getElementById('TotalRoomCost').innerHTML="Total Room Cost = "+TotalRoomCost+"/-";
+    document.getElementById('TotalAmenitiesCost').innerHTML="Total Amenities Cost = "+TotalAmenitiesCost+"/-";
+    document.getElementById('ExtraPersonCost').innerHTML="Extra Person Cost ="+ExtraPersonCost+"/-";
+    document.getElementById('TotalCost').innerHTML="Total Cost = "+TotalCost+"/-";
+    document.getElementById('Balance').innerHTML="Balance Amount = "+Balance+"/-";
 
 }
 
